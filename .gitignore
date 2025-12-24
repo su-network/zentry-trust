@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# OpenZiti enrollment artifacts
+*.jwt
+*.json
+
+# Sensitive files
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+.env
+.env.*
+*.log
+*.db
+*.sqlite
+*password*
+*secret*
+*credentials*
+
+# Docker volumes and state
+.docker/
+docker-compose.override.yml
+
+# editor
+.vscode/
+.DS_Store
